@@ -1,0 +1,90 @@
+
+
+*{
+  box-sizing: border-box;
+}
+.App {
+width:90%;
+
+text-align: center;
+}
+
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.ElementHolder{
+width:70%;
+margin:0 auto;
+display:block;
+border-radius: 10px;
+background-color: #962D3E;
+color:#fff;
+margin-top: 2rem;
+box-shadow: rgb(52, 54, 66) -17px 3px 26px inset;
+}
+
+
+.ElementHolder h1{
+ font-size:3.5rem;
+  font-weight: 500;
+ }
+
+
+.MarkUp,
+.MarkDown{
+  width:48%;
+  display:inline-block;
+  vertical-align: top;
+  padding-top: 0;
+  padding-left:50px;
+    padding-right:50px;
+}
+
+.MarkUp > h1,
+.MarkDown > h1{
+  font-size:2rem;
+  font-weight: 300;
+  color:#F2EBC7;
+}
+
+
+.MarkUp p{
+  text-align: left;
+}
+
+
+.MarkUp p  a{
+color:#348899;
+display:block;
+text-align: center;
+width:100%;
+padding:10px;
+background-color: #fff;
+font-weight: 600;
+font-size:1.3em;
+border-radius:3px;
+}
+
+
+.textArea{
+  width:100%;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
